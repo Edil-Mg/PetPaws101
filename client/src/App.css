@@ -1,0 +1,15 @@
+
+.App {
+	text-align: center;
+}
+.row__title {
+	/* background-color: #D9AF39; */
+	height: 70px;
+	padding-top: 15px;
+}
+.row__title:hover {
+	color: #d9af39;
+}
+.row__title h2 {
+	font-weight: 700;
+}

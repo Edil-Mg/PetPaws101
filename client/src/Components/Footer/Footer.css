@@ -1,0 +1,52 @@
+.footer{
+    background-color: #108896;
+    margin-top: 100px;
+    height: 150px;
+    color: white;
+    text-align: left;
+}
+.footer ul {
+    list-style: none;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about{
+    max-width: 400px;
+    margin-left: 10%;
+}
+.useful_Links{
+    max-width: 300px;
+}
+.contact-info{
+   margin-left: 2%;
+}
+
+.contact-info ul,
+.useful_Links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li,
+.useful_Links li {
+  margin-bottom: 10px;
+}
+
+.about {
+  flex: 1;
+  margin-left: 20px;
+  text-align: left; /* Align text to the left */
+}
+.footer ul {
+    color: rgb(190, 213, 213);
+}
+.about p {
+    color: rgb(190, 213, 213);
+}

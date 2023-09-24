@@ -1,0 +1,52 @@
+
+/* Banner */
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1582068955580-dcc6c0812b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* banner */
+.banner__content {
+  padding: 20px;
+}
+.banner__content h1{
+  font-weight: 900;
+  font-size: 50px;
+}
+.banner h5 {
+  color: rgb(183, 183, 183);
+}
+.get{
+ text-decoration: none;
+ font-weight: 800;
+ font-size: 20px;
+ color: #108896;
+}
+.lower_container .find{
+ margin-right: 180px;
+  text-decoration: none;
+   font-weight: 800;
+ font-size: 20px;
+ color: #108896;
+}
+.lower_container .make{
+  margin-left: 180px;
+  text-decoration: none;
+   font-weight: 800;
+ font-size: 20px;
+ color: #108896;
+}
+.lower_container{
+  padding-top: 20px;
+  /* margin: 0px; */
+  
+}
+
+

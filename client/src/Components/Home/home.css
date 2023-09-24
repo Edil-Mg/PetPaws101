@@ -1,0 +1,16 @@
+.home{
+    max-width: 800px;
+    justify-content: center; 
+    margin-left: 12%;
+}
+.row1{
+    display: flex;
+}
+.home img {
+  margin-left: 5%;
+}
+
+
+
+
+

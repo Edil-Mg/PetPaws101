@@ -1,0 +1,59 @@
+.container {
+  background-image: url("https://img.freepik.com/free-vector/cute-colorful-kitten-pow-pattern-design_1017-14710.jpg?w=826&t=st=1691729129~exp=1691729729~hmac=8d9a3a9a8d9428057c6c4093b5913836f948fa35ffe7273b11a12ee0f6328c16");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ /* background-size: 100% 100%; */
+}
+
+
+/* Columns */
+.columns {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+/* .row__tittle {
+background-color: rgb(89, 245, 245);
+padding-top: 40px;
+} */
+/* Remove custom styling for Bootstrap */
+.column img {
+  max-width: 100%;
+}
+.column h3 {
+  margin-top: 10px;
+}
+
+.column p {
+  margin-top: 5px;
+}
+
+.column button {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+}
+.row:hover{
+  transform: scale(1.04) ;
+  transition:.7s ease all;
+
+}
+.row2 .image__one{
+  display: flex;
+}
+.title h3 p {
+  text-decoration: none;
+}
