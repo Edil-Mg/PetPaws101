@@ -6,6 +6,7 @@ function Footer() {
 		<footer className="footer">
 			<div className="footer-container">
 				<div className="contact-info">
+					<br />
 					<h5>Contact Us</h5>
 					<ul>
 						<li>Email: example@email.com</li>
@@ -14,6 +15,7 @@ function Footer() {
 					</ul>
 				</div>
 				<div className="useful_Links">
+					<br />
 					<h5>Useful Links</h5>
 					<ul>
 						<li>Home</li>
@@ -22,6 +24,7 @@ function Footer() {
 					</ul>
 				</div>
 				<div className="about">
+					<br />
 					<h5>24 Hours Service</h5>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
