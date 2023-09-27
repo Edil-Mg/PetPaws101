@@ -1,7 +1,7 @@
 // Import the express module
 const express = require("express");
 // Import the router module
-const router = express.Router();
+const router = express.Router(); 
 // Import the login router
 const loginRouter = require("./login.routes");
 // Import the add employee router

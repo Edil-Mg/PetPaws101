@@ -2,6 +2,7 @@
 require('dotenv').config();
 // Import the express module
 const express = require("express");
+const router = require("./routes/index");
 // Create the express app
 const app = express();
 // Import the CORS package
@@ -18,31 +19,35 @@ app.use(routes);
 const loginRoute = require('./routes/login.routes');
 // Add the login router to the middleware chain
 app.use(loginRoute);
+const signupRoute = require("./routes/signup.routes");
+// Add the signup router to the middleware chain
+app.use(signupRoute);
 
 
-const createTableSQL = `
-  CREATE TABLE IF NOT EXISTS sign_up (
-    id INT(11) NOT NULL AUTO_INCREMENT,
-    first_name VARCHAR(255) NOT NULL,
-    last_name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    confirm_password VARCHAR(255) NOT NULL,
-    PRIMARY KEY (id),
-    UNIQUE (email)
-  )
-`;
 
-const createUserLoginTableSQL = `
-  CREATE TABLE IF NOT EXISTS user_login (
-    id INT(11) NOT NULL AUTO_INCREMENT,
-    user_id INT(11) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES sign_up(id) ON DELETE CASCADE
-  )
-`;
+// const createTableSQL = `
+//   CREATE TABLE IF NOT EXISTS sign_up (
+//     id INT(11) NOT NULL AUTO_INCREMENT,
+//     first_name VARCHAR(255) NOT NULL,
+//     last_name VARCHAR(255) NOT NULL,
+//     email VARCHAR(255) NOT NULL,
+//     password VARCHAR(255) NOT NULL,
+//     confirm_password VARCHAR(255) NOT NULL,
+//     PRIMARY KEY (id),
+//     UNIQUE (email)
+//   )
+// `;
+
+// const createUserLoginTableSQL = `
+//   CREATE TABLE IF NOT EXISTS user_login (
+//     id INT(11) NOT NULL AUTO_INCREMENT,
+//     user_id INT(11) NOT NULL,
+//     email VARCHAR(255) NOT NULL,
+//     password VARCHAR(255) NOT NULL,
+//     PRIMARY KEY (id),
+//     FOREIGN KEY (user_id) REFERENCES sign_up(id) ON DELETE CASCADE
+//   )
+// `;
 
 // connection.query(createTableSQL, function (err, result) {
 // 	if (err) throw err;

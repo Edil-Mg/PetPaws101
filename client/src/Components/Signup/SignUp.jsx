@@ -109,6 +109,7 @@
 
 // export default SignUp;
 
+
 // Import useState from react
 import React, { useState } from "react";
 import Nav from "../NavBar/Nav";
@@ -222,7 +223,7 @@ function SignUp(props) {
 						name="confirmpassword"
 						value={confirmPassword}
 						required
-						placeholder="Confirm Password"
+						// placeholder="Confirm Password"
 						onChange={(event) => setConfirmPassword(event.target.value)}
 					/>
 					<br />
@@ -242,3 +243,7 @@ function SignUp(props) {
 }
 
 export default SignUp;
+
+
+
+

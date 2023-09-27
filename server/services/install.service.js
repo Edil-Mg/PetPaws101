@@ -8,7 +8,7 @@ async function installDirectFromApi() {
 	let queries = [];
 	let finalMessage = {};
 	console.log("Installing DB directly from the API");
-
+    
 	// Query file
 	const queryfile = __dirname + "/sql/initial-queries.sql";
 	console.log(queryfile);

@@ -4,7 +4,7 @@ const installService = require("../services/install.service");
 async function installDirectFromApi(req, res) {
 	// Call the install service to install the application
 	const applicationInstalled = await installService.installDirectFromApi();
-	// If the application is installed successfully, return success response. Otherwise, return failure response
+	// If the application is installed successfully, return success response. Otherwise, return failure response 
 	if (applicationInstalled) {
 		// Send a success response back to the client
 		const response = {
