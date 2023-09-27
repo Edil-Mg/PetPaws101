@@ -50,7 +50,7 @@ function Login() {
 			<Nav />
 			<div>
 				{/* Display the return message in here */}
-				<div className="notice">
+				<div className="notice text-danger">
 					<h2>{responseMessage}</h2>
 				</div>
 				<h1>Login </h1>

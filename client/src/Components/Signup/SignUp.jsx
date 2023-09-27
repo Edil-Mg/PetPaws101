@@ -167,7 +167,7 @@ function SignUp(props) {
 			<div>
 				
 				{showSuccessMessage ? (
-					<div className="success-message">
+					<div className="success-message text-danger">
 						<h2>You have signed up successfully</h2>
 					</div>
 				) : null}
