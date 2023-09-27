@@ -5,7 +5,7 @@ async function logIn(userData) {
     try{
         console.log("Inside login service");
         console.log(userData);
-        	const sql = `SELECT * FROM sign_up WHERE email = '${userData.email}' AND password = '${userData.password}'`;
+        	const sql = `SELECT * FROM signup WHERE email = '${userData.email}' AND password = '${userData.password}'`;
     // Execute the query
         const result = await connection.query(sql);
         console.log(result)

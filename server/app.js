@@ -19,9 +19,43 @@ app.use(routes);
 const loginRoute = require('./routes/login.routes');
 // Add the login router to the middleware chain
 app.use(loginRoute);
+// Import the signup route
 const signupRoute = require("./routes/signup.routes");
 // Add the signup router to the middleware chain
 app.use(signupRoute);
+
+// Get the port from the environment variable
+const port = process.env.PORT
+// Set up the listener
+app.listen(port, () => console.log(`Listening on port ${port}`));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,9 +156,3 @@ app.use(signupRoute);
 // 		}
 // 	});
 // });
-
-// Get the port from the environment variable
-
-const port = process.env.PORT
-// Set up the listener
-app.listen(port, () => console.log(`Listening on port ${port}`));
