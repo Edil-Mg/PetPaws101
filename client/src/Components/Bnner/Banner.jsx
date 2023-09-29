@@ -44,7 +44,7 @@ function Banner() {
 				<Link to="/SignUp" className="get">
 					Get involved
 				</Link>
-				<Link to="/login" className="make">
+				<Link to="/MakeAppointment" className="make">
 					Make an appointment
 				</Link>
 				<br />

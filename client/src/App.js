@@ -9,6 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 import AboutUs from './Components/AboutUs/AboutUs';
 import SignUp from './Components/Signup/SignUp';
 import Login from './Components/Login/Login';
+import MakeAppt from './Components/MakeAppointment/MakeAppt'
 
 function App() {
   return (
@@ -23,13 +24,12 @@ function App() {
 
 			<BrowserRouter>
 				<Routes>
-					
-
 					<Route path="/" element={<Banner />}></Route>
 					<Route path="/" element={<HomePage />}></Route>
 					<Route path="/about" element={<AboutUs />}></Route>
 					<Route path="/signup" element={<SignUp />}></Route>
-					<Route path='/login' element={<Login />}></Route>
+					<Route path="/login" element={<Login />}></Route>
+					<Route path="/MakeAppointment" element={<MakeAppt />}></Route>
 				</Routes>
 			</BrowserRouter>
 		</div>
