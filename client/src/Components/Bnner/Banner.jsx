@@ -1,15 +1,13 @@
-import React from 'react'
-import "./Banner.css"
-import Nav from '../NavBar/Nav';
-import Footer from '../Footer/Footer';
-import { Link } from 'react-router-dom';
-import puppy1 from "../../resource/image/puppy1.jpg"
-import Home from '../Home/Home';
-
-
+import React from "react";
+import "./Banner.css";
+import Nav from "../NavBar/Nav";
+import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
+import puppy1 from "../../resource/image/puppy1.jpg";
+import Home from "../Home/Home";
 
 function Banner() {
-  return (
+	return (
 		<>
 			<Nav />
 			<div className="banner">
@@ -39,7 +37,7 @@ function Banner() {
 			<div className="lower_container">
 				<br />
 				<Link to="/SignUp" className="find">
-					Find your furry family
+					Enroll
 				</Link>
 				<Link to="/SignUp" className="get">
 					Get involved
@@ -54,4 +52,4 @@ function Banner() {
 	);
 }
 
-export default Banner
+export default Banner;

@@ -39,6 +39,11 @@ function Nav() {
 								Login
 							</Link>
 						</li>
+						<li className="nav-item">
+							<Link className="nav-link text-white" to="/login">
+								Sign in
+							</Link>
+						</li>
 					</ul>
 				</div>
 			</nav>
