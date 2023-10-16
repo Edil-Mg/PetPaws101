@@ -22,8 +22,10 @@ function MakeAppt() {
 
 	return (
 		<div>
-      <Nav /><br/>
-			<h1>Make an appointment</h1><br />
+			<Nav />
+			<br />
+			<h1>Make an appointment</h1>
+			<br />
 			<form onSubmit={handleSubmit}>
 				<div>
 					<label htmlFor="name">Name:</label>
@@ -34,7 +36,8 @@ function MakeAppt() {
 						onChange={(e) => setName(e.target.value)}
 						required
 					/>
-				</div><br/>
+				</div>
+				<br />
 				<div>
 					<label htmlFor="date">Date:</label>
 					<input
@@ -44,7 +47,8 @@ function MakeAppt() {
 						onChange={(e) => setDate(e.target.value)}
 						required
 					/>
-				</div><br/>
+				</div>
+				<br />
 				<div>
 					<label htmlFor="time">Time:</label>
 					<input
@@ -54,12 +58,23 @@ function MakeAppt() {
 						onChange={(e) => setTime(e.target.value)}
 						required
 					/>
-				</div><br/>
+				</div>
+				<br />
 				<div>
 					<button type="submit">Submit</button>
 				</div>
+				<div>
+					<label htmlFor="name">coment:</label>
+					<input
+						type="text"
+						id="coment"
+						value={name}
+						onChange={(e) => setName(e.target.value)}
+						required
+					/>
+				</div>
 			</form>
-      <Footer />
+			<Footer />
 		</div>
 	);
 }
