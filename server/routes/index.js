@@ -8,12 +8,17 @@ const loginRouter = require("./login.routes");
 const signupRouter = require("./signup.routes");
 // Import the install router
 const installRouter = require("./install.routes");
+// Import the register router
+const registerRouter = require("./register.router");
+
 // Add the login routers to the middleware chain
 router.use(loginRouter);
 // Add the add employee router to the middleware chain
 router.use(signupRouter);
 // Add the install router to the middleware chain
 router.use(installRouter);
+// Add the register router to the middleware chain
+router.use(registerRouter);
 
 // Export the router
 module.exports = router;
