@@ -8,8 +8,8 @@ const loginRouter = require("./login.routes");
 const signupRouter = require("./signup.routes");
 // Import the install router
 const installRouter = require("./install.routes");
-// Import the register router
-const registerRouter = require("./register.router");
+// Import the appointment router
+const appointmentRouter = require("./appointment.router");
 
 // Add the login routers to the middleware chain
 router.use(loginRouter);
@@ -17,8 +17,8 @@ router.use(loginRouter);
 router.use(signupRouter);
 // Add the install router to the middleware chain
 router.use(installRouter);
-// Add the register router to the middleware chain
-router.use(registerRouter);
+// Add the appointment router to the middleware chain
+router.use(appointmentRouter);
 
 // Export the router
 module.exports = router;
