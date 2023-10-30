@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import "./Nav.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Nav() {
-  return (
+	return (
 		<div>
 			<nav className="navbar navbar-expand-lg ">
 				<img src=""></img>
@@ -40,7 +40,7 @@ function Nav() {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link text-white" to="/login">
+							<Link className="nav-link text-white" to="/signUp">
 								Sign in
 							</Link>
 						</li>
@@ -51,4 +51,4 @@ function Nav() {
 	);
 }
 
-export default Nav
+export default Nav;
