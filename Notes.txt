@@ -1,0 +1,59 @@
+The architechtural structure of god day care
+        1. front page
+        - about the page
+            > who we are 
+        - front image
+        - front text
+        2. about us
+        - about the page
+        - about image
+        - about text
+        3. services
+        - services we provide
+        - about service image
+        - about service text
+        4. contact us
+        - our informaton 
+        - our email
+        - our phone number
+        5. log in system 
+        - log in page
+        - log in form
+        - log in button
+        6. sign up system
+        - sign up page
+        - sign up form
+        - sign up button
+        7. how to enrolle
+        - gude page 
+
+            Once logged in from the client side:                                              From the back end side 
+            1. Dashbord                                                                         1. Sign in 
+            - dashbord page                                                                     2. Login
+            - dashbord text                                                                     3. make appointment
+            - personsal profiel                                                                 4. grooming service 
+                > personal informaton                                                           5. Items to buy 
+                > doggi infoy
+            2.Make an appointment
+            - apointment form
+                > takes api to save it on a data
+                > from mothly / yrarly calendekr 
+            3. Services we provide 
+            - list of servives the customer can click on to their dogs clickable 
+            - grooming spa  
+            4. Items to buy 
+            - list of items with thie price
+            - add to cart button
+            - checkout button 
+
+        API integration 
+        - get all dogs info
+        - get all services info
+        - get all items info
+        - get all appontments info
+        - get all users info
+
+
+
+
+        

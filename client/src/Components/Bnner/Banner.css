@@ -4,6 +4,7 @@
   background-image: url("https://images.unsplash.com/photo-1582068955580-dcc6c0812b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -11,19 +12,46 @@
   color: white;
   text-align: center;
 }
+.banner2 {
+  background-image: url("../../assets/images/doggies.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.banner-des{
+  border-radius: 15px;
+  background-color: white;
+  width: 380px;
+  height: 400px;
+  color: black
+ 
+}
 
 /* banner */
 .banner__content {
+  padding: 20px;
+}
+.banner__content2{
   padding: 20px;
 }
 .banner__content h1{
   font-weight: 900;
   font-size: 50px;
 }
+.banner__content2 h2{
+  font-weight: 600;
+  font-size: 40px;
+}
 .banner h5 {
   color: rgb(183, 183, 183);
 }
-.get{
+/* .get{
  text-decoration: none;
  font-weight: 800;
  font-size: 20px;
@@ -41,11 +69,26 @@
   text-decoration: none;
    font-weight: 800;
  font-size: 20px;
- color: #108896;
+ color: white;
+} */
+.lower_container Link{
+  text-decoration: none;
+   font-weight: 800;
+ font-size: 20px;
+ color: white;
 }
 .lower_container{
   padding-top: 20px;
-  /* margin: 0px; */
+  background-image: url(../../assets/images/dogparty2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
   
 }
 

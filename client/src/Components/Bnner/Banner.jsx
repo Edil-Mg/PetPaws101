@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import puppy1 from "../../resource/image/puppy1.jpg";
 import Home from "../Home/Home";
+import pupps from "../../assets/images/doggies.jpg";
 
 function Banner() {
 	return (
@@ -34,6 +35,28 @@ function Banner() {
 				productTitle="Why choose us"
 				productDescription="Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
 			/>
+			<br /><br />
+			<div className="banner2">
+				<div className="banner__content2">
+					<div className="banner-des">
+						<h2>OUR MISSION</h2>
+						<p>
+							We prioritize belly rubs and are committed to ensuring your furry
+							friend feels comfortable, content, and secure while under our
+							care. Our aim is to provide top-notch care at an affordable price,
+							catering to various needs and budgets. Regardless of how
+							frequently your dog(s) visit, they are guaranteed to depart
+							happily worn out from a day filled with enjoyable K9 and human
+							interactions.{" "}
+						</p>
+						<p>
+							Our emphasis lies in promoting positive socialization, along with
+							offering both physical and mental stimulation through activities
+							like basic obedience and agility.
+						</p>
+					</div>
+				</div>
+			</div>
 			<div className="lower_container">
 				<br />
 				<Link to="/SignUp" className="find">
