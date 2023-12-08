@@ -35,7 +35,8 @@ function Banner() {
 				productTitle="Why choose us"
 				productDescription="Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
 			/>
-			<br /><br />
+			<br />
+			<br />
 			<div className="banner2">
 				<div className="banner__content2">
 					<div className="banner-des">
@@ -58,16 +59,18 @@ function Banner() {
 				</div>
 			</div>
 			<div className="lower_container">
-				<br />
-				<Link to="/SignUp" className="find">
-					Enroll
-				</Link>
-				<Link to="/SignUp" className="get">
-					Get involved
-				</Link>
-				<Link to="/MakeAppointment" className="make">
-					Make an appointment
-				</Link>
+			
+				<ul>
+					<Link to="/SignUp" className="find">
+						<li>Enroll</li>
+					</Link>
+					<Link to="/SignUp" className="get">
+						<li>Get involved</li>
+					</Link>
+					<Link to="/MakeAppointment" className="make">
+						<li>Make an appointment</li>
+					</Link>
+				</ul>
 				<br />
 			</div>
 			<Footer />

@@ -25,6 +25,7 @@
   text-align: center;
 }
 .banner-des{
+  margin-right: 800px;
   border-radius: 15px;
   background-color: white;
   width: 380px;
@@ -71,12 +72,17 @@
  font-size: 20px;
  color: white;
 } */
-.lower_container Link{
+.lower_container ul li{
+  list-style: none;
   text-decoration: none;
    font-weight: 800;
  font-size: 20px;
  color: white;
 }
+/* .lower_container ul{
+  display: flex;
+  justify-content:space-between
+} */
 .lower_container{
   padding-top: 20px;
   background-image: url(../../assets/images/dogparty2.jpg);
