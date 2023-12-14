@@ -35,6 +35,7 @@ function Home(props) {
 					<div className="col-md-8">
 						<h3>{props.productTitle}</h3>
 						<p>{props.productDescription}</p>
+						<p>{props.productDescription2}</p>
 					</div>
 					<div className="col-md-4 p-2 d-flex">
 						<img

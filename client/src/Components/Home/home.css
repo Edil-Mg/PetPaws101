@@ -6,6 +6,10 @@
 .row1{
     display: flex;
 }
+.row1 p {
+  font-size: 15px;
+  line-height: 30px;
+}
 .home img {
   margin-left: 5%;
 }
