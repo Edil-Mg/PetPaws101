@@ -17,7 +17,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 500px;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,10 +28,16 @@
   margin-right: 800px;
   border-radius: 15px;
   background-color: white;
-  width: 380px;
-  height: 400px;
-  color: black
+  width: 420px;
+  height: 470px;
+  color: black;
+  opacity: 0.9;
+  padding: 15px;
  
+}
+.banner-des p{
+  font-size: 15px;
+  line-height: 30px;
 }
 
 /* banner */
@@ -81,10 +87,9 @@
 }
 /* .lower_container ul{
   display: flex;
-  justify-content:space-between
+ justify-content: space-between;
 } */
 .lower_container{
-  padding-top: 20px;
   background-image: url(../../assets/images/doggyRunning.jpg);
   background-size: cover;
   background-position: center;

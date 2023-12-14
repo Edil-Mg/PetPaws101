@@ -61,6 +61,7 @@ function Banner() {
 			</div>
 			<div className="lower_container">
 				<ul>
+					
 					<Link to="/SignUp" className="find">
 						<li>Enroll</li>
 					</Link>
