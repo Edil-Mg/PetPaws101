@@ -40,39 +40,36 @@ function Banner() {
 			<br />
 			<div className="banner2">
 				<div className="banner__content2">
-					<div className="banner-des">
-						<h2>OUR MISSION</h2>
-						<p>
-							We prioritize belly rubs and are committed to ensuring your furry
-							friend feels comfortable, content, and secure while under our
-							care. Our aim is to provide top-notch care at an affordable price,
-							catering to various needs and budgets. Regardless of how
-							frequently your dog(s) visit, they are guaranteed to depart
-							happily worn out from a day filled with enjoyable K9 and human
-							interactions.{" "}
-						</p>
-						<p>
-							Our emphasis lies in promoting positive socialization, along with
-							offering both physical and mental stimulation through activities
-							like basic obedience and agility.
-						</p>
-					</div>
+					<ul>
+						<Link to="/SignUp" className="find">
+							<li>Enroll</li>
+						</Link>
+						<Link to="/SignUp" className="get">
+							<li>Get involved</li>
+						</Link>
+						<Link to="/MakeAppointment" className="make">
+							<li>Make an appointment</li>
+						</Link>
+					</ul>
 				</div>
 			</div>
 			<div className="lower_container">
-				<ul>
-					
-					<Link to="/SignUp" className="find">
-						<li>Enroll</li>
-					</Link>
-					<Link to="/SignUp" className="get">
-						<li>Get involved</li>
-					</Link>
-					<Link to="/MakeAppointment" className="make">
-						<li>Make an appointment</li>
-					</Link>
-				</ul>
-				<br />
+				<div className="banner-des">
+					<h2>OUR MISSION</h2>
+					<p>
+						We prioritize belly rubs and are committed to ensuring your furry
+						friend feels comfortable, content, and secure while under our care.
+						Our aim is to provide top-notch care at an affordable price,
+						catering to various needs and budgets. Regardless of how frequently
+						your dog(s) visit, they are guaranteed to depart happily worn out
+						from a day filled with enjoyable K9 and human interactions.{" "}
+					</p>
+					<p>
+						Our emphasis lies in promoting positive socialization, along with
+						offering both physical and mental stimulation through activities
+						like basic obedience and agility.
+					</p>
+				</div>
 			</div>
 			<Footer />
 		</>
