@@ -4,24 +4,16 @@ import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 
 function Login() {
-	// Declare state variables for each of the form fields
+	
 	const [emailAddress, setEmailAddress] = useState("");
 	const [password, setPassword] = useState("");
-	// Declare a state variable to store the response from the server
-	const [responseMessage, setResponseMessage] = useState("");
-
-	// Write a function to handle the form submission
 	function handleSubmit(event) {
-		// Prevent the default behaviour of the form submission
 		event.preventDefault();
-		// Prepare the data to be sent to the server
 		const loginData = {
 			email: emailAddress,
 			password: password,
 		};
-		// Check if the data is being captured correctly
 		console.log(loginData);
-		// Send the data to the server
 		const apiUrl = "http://localhost:4001/login";
 		const requestOptions = {
 			method: "POST",
@@ -29,7 +21,7 @@ function Login() {
 			body: JSON.stringify(loginData),
 		};
 		const response = fetch(apiUrl, requestOptions);
-		// Save the response from the server in the state variable
+		
 		response
 			.then((res) => res.json())
 			.then((data) => {
