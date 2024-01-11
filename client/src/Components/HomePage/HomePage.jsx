@@ -30,28 +30,11 @@ function HomePage(props) {
 	);
 }
 
-export default HomePage;
+export default HomePage; 
+      
+   
+      
 
-
-// function HomePage(props) {
-// 	return (
-// 		<div className="homePage">
-// 			<div className="container">
-// 				<div className="row">
-// 					<div className="col-md-4 p-2 d-flex">
-// 						<img src={props.image} alt={props.altText} className="img-fluid" />
-// 					</div>
-// 					<div className="col-md-6 text-black title">
-// 						<h3>{props.productTitle}</h3>
-// 						<p>{props.productDescription}</p>
-// 					</div>
-// 				</div>
-// 			</div>
-// 		</div>
-// 	);
-// }
-
-// export default HomePage;
 
 
 

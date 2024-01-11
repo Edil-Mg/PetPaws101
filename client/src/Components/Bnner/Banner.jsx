@@ -19,14 +19,7 @@ function Banner() {
 			</div>
 			<br />
 			<br />
-			{/* <Home
-				title="Welcome to Our Store"
-				image={puppy1}
-				alt="Image 1"
-				altText="Product Image"
-				productTitle="Our story"
-				productDescription="Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.."
-			/> */}
+			
 			<Home
 				title="Welcome to Our Store"
 				image="http://azim.commonsupport.com/Poopet/images/resource/news-3.png"

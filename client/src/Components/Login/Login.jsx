@@ -1,4 +1,3 @@
-// Import useState from react
 import React, { useState } from "react";
 import Nav from "../NavBar/Nav";
 import Footer from "../Footer/Footer";
@@ -49,7 +48,7 @@ function Login() {
 		<>
 			<Nav />
 			<div>
-				{/* Display the return message in here */}
+				
 				<div className="notice text-danger">
 					<h2>{responseMessage}</h2>
 				</div>

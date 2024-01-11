@@ -90,17 +90,18 @@
  justify-content: space-between;
 } */
 .lower_container{
-  background-image: url(../../assets/images/doggyRunning.jpg);
-  background-size: cover;
-  background-position: center;
+  /* background-image: url(../../assets/images/doggyRunning.jpg); */
+  /* background-size: cover;
+  background-position: center; */
   /* background-attachment: fixed; */
-  height: 600px;
+  /* height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  text-align: center;
+  text-align: center; */
   
+  background-color: rgb(137, 178, 241);
 }
 
 
