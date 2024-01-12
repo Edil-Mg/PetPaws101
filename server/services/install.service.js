@@ -1,14 +1,12 @@
-// Import the db connection file
 const connection = require("../config//db.config");
-// Import the fs module to read in files
+
 const fs = require("fs");
-// A function to install DB directly from the api
+
 async function installDirectFromApi() {
-	// Temporary variable, used to store all queries
+	
 	let queries = [];
 	let finalMessage = {};
 	console.log("Installing DB directly from the API");
-	// Query file
 	const queryfile = __dirname + "/sql/initial-queries.sql";
 	console.log(queryfile);
 	let templine = "";
@@ -55,7 +53,7 @@ async function installDirectFromApi() {
 	return finalMessage;
 }
 
-// Export the function
+
 module.exports = {
 	installDirectFromApi,
 };

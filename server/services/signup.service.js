@@ -1,6 +1,5 @@
-// Import the db connection file
 const connection = require("../config/db.config");
-// A function to handle the add employee request
+
 async function signUp(userData) {
 	try {
 		// Write the sql query to add an employee to the database
@@ -23,7 +22,7 @@ async function signUp(userData) {
 	}
 }
 
-// Export the function
+
 module.exports = {
 	signUp,
 };
